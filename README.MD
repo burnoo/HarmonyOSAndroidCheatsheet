@@ -108,7 +108,7 @@ An ability slice's lifecycle is bound to the Page ability that hosts it. An abil
 
 Docs: https://developer.harmonyos.com/en/docs/documentation/doc-guides/ability-page-lifecycle-0000000000029840
 
-## XML Layputs
+## XML Layouts
 Docs: https://developer.harmonyos.com/en/docs/documentation/doc-guides/ui-java-component-layout-xml-0000000000500395
 | Android                        | HarmonyOS             |
 | ------------------------------ | --------------------- |
@@ -122,7 +122,9 @@ Docs: https://developer.harmonyos.com/en/docs/documentation/doc-guides/ui-java-c
 In HarmonyOS there is a config.json file instead of AndroidManifest.xml. Docs: https://developer.harmonyos.com/en/docs/documentation/doc-guides/basic-config-file-overview-0000000000011951
 
 ## Resources
-All the application resource files, such as strings, images, and audio files, are stored in the resources directory, allowing you to easily access, use, and maintain them. The resources directory consists of two types of sub-directories: the `base` sub-directory and `qualifiers` sub-directories, and the `rawfile` sub-directory. 
+All the application resource files, such as strings, images, and audio files, are stored in the resources directory, allowing you to easily access, use, and maintain them. The resources directory consists of two types of sub-directories: the `base` sub-directory and `qualifiers` sub-directories, and the `rawfile` sub-directory.
+
+Example:
 ```
 resources
 |---base  // Default directory
@@ -171,4 +173,4 @@ Docs: https://developer.harmonyos.com/en/docs/documentation/doc-guides/security-
 | `PackageManager.PERMISSION_GRANTED` | `IBundleManager.PERMISSION_GRANTED`      |
 
 ## Contributing
-If you think there could be more items in this cheatsheat please open an issue or a PR.
+If you think there could be more items in this cheatsheat please open an issue or a PR. Repository: https://github.com/burnoo/HarmonyOSAndroidCheatsheet/
